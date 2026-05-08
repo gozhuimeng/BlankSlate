@@ -11,5 +11,8 @@ dist/
 .ruff_cache/
 .pytest_cache/
 
+# Database
+*.db
+
 # Other
 archived/
