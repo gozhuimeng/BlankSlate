@@ -1,0 +1,9 @@
+[project]
+name = "BlankSlate"
+version = "0.1.0"
+description = "一个融合Agent、以教代学的教学辅助工具"
+readme = "../README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic-ai>=1.91.0",
+]

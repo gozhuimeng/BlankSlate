@@ -1,0 +1,12 @@
+# Virctual enviroument
+/.venv/
+/uv.lock
+
+# Python
+__pycache__
+build/
+dist/
+
+# Check cache
+.ruff_cache/
+.pytest_cache/
