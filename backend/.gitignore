@@ -10,3 +10,6 @@ dist/
 # Check cache
 .ruff_cache/
 .pytest_cache/
+
+# Other
+archived/
