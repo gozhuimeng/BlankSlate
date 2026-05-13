@@ -12,6 +12,7 @@ dist/
 .pytest_cache/
 
 # Database
+db/
 *.db
 
 # Other

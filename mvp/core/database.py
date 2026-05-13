@@ -13,6 +13,7 @@ class DataBase:
         self.file_path = file_path if file_path else "./BlankSlate.db"
         dir_path = os.path.dirname(self.file_path)
         if dir_path and not os.path.isdir(self.file_path):
+            # 初始化目录
             os.makedirs(dir_path, exist_ok=True)
 
         if not os.path.exists(self.file_path):
@@ -83,3 +84,24 @@ class DataBase:
                             );
                         """)
             conn.commit()
+
+    def get_knowledge_by_id(self, know_id):
+        pass
+
+    def get_sut_info_by_id(self, stu_id):
+        pass
+
+    def get_session_by_id(self, session_id):
+        pass
+
+    def get_chat_by_session_id(self, session_id):
+        pass
+
+    def get_model_knowlege_by_session_id(self, session_id):
+        pass
+
+    def get_model_knowledge_and_content_by_session_id(self, session_id):
+        pass
+
+    def get_evaluation_by_session_id(self, session_id):
+        pass
